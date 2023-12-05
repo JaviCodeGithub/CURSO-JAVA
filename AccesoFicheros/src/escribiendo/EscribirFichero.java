@@ -5,6 +5,8 @@ import java.io.IOException;
 
 public class EscribirFichero {
 	
+	//PRUEBA DE GIT
+	
 	public static void main(String[] args) {
 		
 		Escribiendo esc = new Escribiendo();
