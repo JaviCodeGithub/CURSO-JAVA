@@ -1,0 +1,88 @@
+package graficos;
+
+import java.awt.Toolkit;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class EventoFoco {
+
+	public static void main(String[] args) {
+
+		JFrame miMarco= new MarcoFoco();
+		
+		miMarco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+	}
+
+}
+
+class MarcoFoco extends JFrame{
+	
+	public MarcoFoco() {
+		
+		setVisible(true);
+		
+		setBounds(Toolkit.getDefaultToolkit().getScreenSize().width/3+75, Toolkit.getDefaultToolkit().getScreenSize().height/3+50, 400, 250);
+		
+		add(new LaminaFoco());
+		
+	}
+	
+}
+
+class LaminaFoco extends JPanel{
+	
+	public void paintComponent(Graphics g) {
+		
+		super.paintComponent(g);
+		
+		setLayout(null);	//ELIMINAMOS LA DISPOSICON DE ELEMENTOS POR DEFECTO
+		
+		cuadro1=new JTextField();
+		
+		cuadro2=new JTextField();
+		
+		cuadro1.setBounds(120,10,150,20);
+		
+		cuadro2.setBounds(120,50,150,20);
+		
+		add(cuadro1);
+		
+		add(cuadro2);
+		
+		LanzaFocos foco=new LanzaFocos();
+		
+		cuadro1.addFocusListener(foco);
+		
+	}
+	
+	
+	
+	JTextField cuadro1;
+	
+	JTextField cuadro2;
+	
+	private class LanzaFocos implements FocusListener{
+
+		  
+		public void focusGained(FocusEvent e) {
+			
+			
+			
+		}
+		
+		public void focusLost(FocusEvent e) {
+			
+			
+			
+			System.out.println("he perdido el foco");
+			
+		}
+		
+		
+	}
+	
+}
+	

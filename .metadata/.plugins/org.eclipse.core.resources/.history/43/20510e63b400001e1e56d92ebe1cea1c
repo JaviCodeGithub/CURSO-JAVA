@@ -1,0 +1,55 @@
+package poo;
+
+public class Pruebas {
+
+	public static void main(String[] args) {
+		
+		Empleados empleado1=new Empleados("Javier");
+		Empleados empleado2=new Empleados("Daniela");
+		
+		empleado1.cambiaSeccion("Programación");
+		
+		empleado2.cambiaSeccion("Complience");
+		
+		System.out.println(empleado1.devuelveDato());
+		System.out.println(empleado2.devuelveDato());
+		
+		
+	}
+
+}
+
+class Empleados{
+	
+	private final String nombre;
+	private String seccion;
+	static public int id=0;
+	
+	
+	public Empleados(String nom) {
+		
+		id+;
+		
+		nombre=nom;
+		
+		seccion="Administración";
+		
+	}
+	
+	public void cambiaSeccion(String seccion) {//SETTER
+		
+		this.seccion=seccion;
+	}
+	
+	
+	public String devuelveDato(){
+		
+	return "El nombre es " + nombre + " y trabaja en la sección de " + seccion + " su id es: " + id;
+		
+	}
+	
+	
+	
+	
+	
+}

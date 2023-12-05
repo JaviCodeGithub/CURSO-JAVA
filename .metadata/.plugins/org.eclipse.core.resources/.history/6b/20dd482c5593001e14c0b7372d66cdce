@@ -1,0 +1,25 @@
+package calculator;
+
+import java.awt.Toolkit;
+
+import javax.swing.*;
+
+public class Calcu {
+
+	public static void main(String[] args) {
+
+		CalFrame calc = new CalFrame();
+		
+	}
+
+}
+
+class CalFrame extends JFrame{
+	
+	public CalFrame() {
+		
+		setVisible(true);
+		
+		setBounds(Toolkit.getDefaultToolkit().getScreenSize().width, Toolkit.getDefaultToolkit().getScreenSize().height, 400, 600);
+	}
+}

@@ -1,0 +1,20 @@
+package escribiendo;
+
+public class EscribirFichero {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
+
+class Escribiendo{
+	
+	public void escribir() {
+		
+		String frase = "Esto es una prueba de escritura";
+		
+		
+	}
+}

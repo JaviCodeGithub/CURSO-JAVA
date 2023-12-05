@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Adivina_Numero&apos; to &apos;Bucle_While&apos;&#x0D;&#x0A;- Original project: &apos;PrimerosPasos&apos;&#x0D;&#x0A;- Original element: &apos;Adivina_Numero&apos;&#x0D;&#x0A;- Renamed element: &apos;Bucle_While&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Adivina_Numero&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Adivina_Numero.java[Adivina_Numero" matchStrategy="1" name="Bucle_While" qualified="false" references="true" similarDeclarations="false" stamp="1683305600627" textual="false" version="1.0"/>
+</session>

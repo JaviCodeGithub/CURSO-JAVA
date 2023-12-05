@@ -1,0 +1,16 @@
+package leyendo;
+
+import java.io.*;
+
+public class AccesoFichero {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class LeerFichero{
+	
+	
+}
