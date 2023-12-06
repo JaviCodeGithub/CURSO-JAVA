@@ -2,20 +2,20 @@
 
 AccesoFicheros/.settings/
 AccesoFicheros/bin/
-AccesoFicheros/.classpath/
-AccesoFicheros/.project/
+AccesoFicheros/.classpath
+AccesoFicheros/.project
 
 Calculator/.settings/
 Calculator/bin/
-Calculator/.classpath/
-Calculator/.project/
+Calculator/.classpath
+Calculator/.project
 
 Exceptions/.settings/
 Exceptions/bin/
-Exceptions/.classpath/
-Exceptions/.project/
+Exceptions/.classpath
+Exceptions/.project
 
 PrimerosPasos/.settings/
 PrimerosPasos/bin/
-PrimerosPasos/.classpath/
-PrimerosPasos/.project/
+PrimerosPasos/.classpath
+PrimerosPasos/.project
