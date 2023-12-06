@@ -1,6 +1,6 @@
 package escribiendo;
 
-import java.io.FileWriter;
+import java.io.*;
 import java.io.IOException;
 
 public class EscribirFichero {
@@ -26,9 +26,12 @@ class Escribiendo{
 		try {
 			FileWriter escritura = new FileWriter("C:/Users/javie/Desktop/ejemplo2.txt");
 			
-			escritura.write(frase);
+			BufferedWriter escri = new BufferedWriter(escritura);
+						
+			escri.write(frase);
 			
 			escritura.close();
+			
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
